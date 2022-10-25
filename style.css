@@ -1,0 +1,113 @@
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+/*nav*/
+nav {
+    grid-area: nav;
+    background-color: white;
+
+    /*ubicacion*/
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 100 !important;   
+    text-transform: uppercase;     
+}
+
+.nav-link {
+    color: grey;
+}
+
+/*header*/
+header {
+    grid-area: header;
+    background-color: #007886 !important;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif !important;
+}
+
+.sub1 {
+    color: #9DDAD1;
+}
+
+.sub2 {
+    color: #FEC665;
+}
+
+.sub3 {
+    color: #ffdad7;
+}
+
+/*index -primer seccion*/
+.seccion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.img-clases {
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.img-clases h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /*estilo*/
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+
+    /*ubicacion*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-clases:hover h2 {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.img-clases img {
+    max-width: 400px;
+    margin: auto;
+    border: solid #9DDAD1 10px;
+}
+
+.titulo-seccion {
+    padding: 40px 0px 0px 40px;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.titulo-seccion button {
+    border: solid 1px black;
+}
+/*footer*/
+
+footer {
+    grid-area: footer;
+}
+
+.seccion-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    color: white;
+    padding: 50px;
+    background-color: #007886;
+}
