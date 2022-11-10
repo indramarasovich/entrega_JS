@@ -51,12 +51,15 @@ header {
     justify-content: center;
 }
 
+.estilo {
+    margin: auto;
+}
+
 .img-clases {
     position: relative;
     line-height: 0;
     overflow: hidden;
     justify-content: space-between;
-    margin: auto;
 }
 
 .img-clases h2 {
@@ -97,6 +100,46 @@ header {
 .titulo-seccion button {
     border: solid 1px black;
 }
+
+.mensaje {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.seccionJuego {
+    text-align: center;
+    padding: 10rem;
+    margin: 3rem auto;
+    height: auto;
+    background-color:#ffdad7 ;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.p-texto {
+    font-family: 'Cabin', sans-serif;
+    padding: 20px 50px 20px 0px;
+    font-size: 40px;
+    color:#007886;
+}
+
+.p-texto button {
+    text-decoration: none;
+    color: #007886;
+}
+
+.presentacion div img {
+    border: #007886 10px solid;
+    margin: auto;
+}
+
 /*footer*/
 
 footer {
