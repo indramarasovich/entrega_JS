@@ -49,7 +49,7 @@ btnJuego.addEventListener("click", () => {
                 Swal.fire({
                     icon: 'error',
                     title: 'Incorrecto',
-                    text: 'La respuesta correcta es "Entrar en calor"',
+                    text: 'La respuesta correcta es "Con piernas flexionadas o estiradas y la espalda recta"',
                 })
                 })
 
@@ -58,7 +58,7 @@ btnJuego.addEventListener("click", () => {
                 Swal.fire({
                     icon: 'error',
                     title: 'Incorrecto',
-                    text: 'La respuesta correcta es "Entrar en calor"',
+                    text: 'La respuesta correcta es "Con piernas flexionadas o estiradas y la espalda recta"',
                 })
                 })
 
@@ -83,7 +83,7 @@ btnJuego.addEventListener("click", () => {
                     Swal.fire({
                         icon: 'error',
                         title: 'Incorrecto',
-                        text: 'La respuesta correcta es "Entrar en calor"',
+                        text: 'La respuesta correcta es "Espalda recta, rodilla y cadera a la misma altura"',
                     })
                     })
 
@@ -92,7 +92,7 @@ btnJuego.addEventListener("click", () => {
                     Swal.fire({
                         icon: 'error',
                         title: 'Incorrecto',
-                        text: 'La respuesta correcta es "Entrar en calor"',
+                        text: 'La respuesta correcta es "Espalda recta, rodilla y cadera a la misma altura"',
                     })
                     })
 
